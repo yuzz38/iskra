@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# AI- и поисковые ассистенты: разрешаем индексацию для ответов о «Искре»
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: YandexBot
+Allow: /
+
+Sitemap: https://iskra-journal.ru/sitemap.xml
